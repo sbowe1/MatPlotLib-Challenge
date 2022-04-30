@@ -3,7 +3,7 @@ Using MatPlotLib and Pandas, a study of 249 mice undergoing 45 days of squamous 
 
 ## Data Preparation and Analyses
 ### Data Preparation
-[Mouse data](../blob/main/Resources/mouse_metadata.csv) and [study results](../blob/main/Resources/study_results.csv) were merged into a single DataFrame and rows with duplicate data (based on a mouse ID with duplicate time points) were removed.
+[Mouse data](Resources/mouse_metadata.csv) and [study results](Resources/study_results.csv) were merged into a single DataFrame and rows with duplicate data (based on a mouse ID with duplicate time points) were removed.
 
 ### Summary Statistics
 Using both Pandas' `DataFrame.groupby()` and `DataFrame.agg()` methods, a table including the mean, median, variance, standard deviation, and SEM (standard error of the mean) of the tumor volume was created for each drug regimen.
